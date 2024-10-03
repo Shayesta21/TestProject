@@ -13,24 +13,25 @@ public class LaunchABrowser {
 		 * close browser
 		 */
 		
-		//launch browser for chrome
+	//launch browser for chrome
 		
 		WebDriver driver= new ChromeDriver();
      //ChromeDriver driver= new ChromeDriver();
+	// open url	
        driver.get("https://www.amazon.ca");
        Thread.sleep(5000);
      // Validate title  
        String title= driver.getTitle();
        if(title.equals("Amazon.ca: Low Prices – Fast Shipping – Millions of Items"))
        {
-         System.out.println("correct title: "+ title);
+         System.out.println("correct title: "+ title+" -Test case passed");
        }else
        {
-    	 System.out.println("incorrect title"+title);
+    	 System.out.println("incorrect title"+title+" -Test case failed");
        }
        Thread.sleep(5000);
        //close browser
-       driver.close();
+       driver.quit();
 	}
 
 }
