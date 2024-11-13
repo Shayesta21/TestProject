@@ -18,7 +18,7 @@ public class LaunchABrowser {
 		WebDriver driver= new ChromeDriver();
      //ChromeDriver driver= new ChromeDriver();
 	// open url	
-       driver.get("https://www.amazon.ca");
+       driver.get("https://www.amazon.com");
        Thread.sleep(5000);
      // Validate title  
        String title= driver.getTitle();
