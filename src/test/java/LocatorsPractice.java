@@ -1,3 +1,5 @@
+import java.util.NoSuchElementException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -36,8 +38,9 @@ public class LocatorsPractice {
 	  driver.findElement(By.xpath("//a[@class=\"hrefch\"]")).click();
 	  
 	  //Using CSS
-	  driver.findElement(By.cssSelector("a.btn[onclick=\"addToCart(8)\"] ")).click();
 	  
-	}
+	   driver.findElement(By.cssSelector("a.btn[onclick=\"addToCart(8)\"] ")).click();
+	
 
+}
 }
