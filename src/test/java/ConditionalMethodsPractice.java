@@ -27,6 +27,7 @@ public class ConditionalMethodsPractice {
 		
 		//1st method: using web element
 		
+		
 		WebElement logo=driver.findElement(By.cssSelector("a[class=\"logo\"]"));
 		System.out.println("The display status of the logo is "+logo.isDisplayed());
 		
