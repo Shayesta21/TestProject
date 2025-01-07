@@ -23,7 +23,10 @@ public class WaitMethodsPractice {
 		 * 
 		 * 2)Explicitly wait:
 		 * advantage: 
-		 * 
+		 * It is condition based so it works more effectively
+		 * finding the element is inclusive
+		 * it will wait for the condition to be true,then consider the time
+		 * disadvantage: we need to write multiple statements for multiple elements
 		 * 
 		 */
 		//1)implicit wait:
@@ -40,9 +43,9 @@ public class WaitMethodsPractice {
         WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
         //This is the use
         WebElement fishtype =wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("FI-SW-01")));
-        
         fishtype.click();
-        
+       
+        //Fluent Wait:
         
 
 	}
