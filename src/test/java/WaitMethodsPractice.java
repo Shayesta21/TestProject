@@ -36,7 +36,7 @@ public class WaitMethodsPractice {
 		driver.manage().window().maximize();
     	WebElement fish=driver.findElement(By.xpath("//*[@id=\"SidebarContent\"]/a[1]/img"));
         fish.click();
-        
+        Thread.sleep(3000);
         
         //2)explicit wait: it has two parts 1-declaration, 2-use 
         //This is the declaration part
@@ -45,7 +45,7 @@ public class WaitMethodsPractice {
         WebElement fishtype =wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("FI-SW-01")));
         fishtype.click();
        
-        //Fluent Wait:
+        
         
 
 	}
