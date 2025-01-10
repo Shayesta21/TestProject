@@ -66,6 +66,8 @@ public class HandleBrowserWindowsPractice {
     	String t1= driver.switchTo().window(windowid).getTitle();
      if(t1.equals("Hopme page")) {
     	 System.out.println(driver.getCurrentUrl());
+     }else {
+    	 System.out.println("This is the second browser window "+windowid);
      }
      
      }
