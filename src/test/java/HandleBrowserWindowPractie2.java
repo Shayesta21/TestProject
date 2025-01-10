@@ -3,6 +3,9 @@ import org.openqa.selenium.Point;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.JavascriptExecutor;
 import java.util.ArrayList;
@@ -35,7 +38,7 @@ public class HandleBrowserWindowPractie2 {
 		button.click();
 		Set<String> winid= driver.getWindowHandles();
 		
-		List<String> winlist=new ArrayList(winid);
+		/*List<String> winlist=new ArrayList(winid);
 		
 		String parentid= winlist.get(0);
 		String childid=winlist.get(1);
@@ -46,8 +49,15 @@ public class HandleBrowserWindowPractie2 {
 		driver.switchTo().window(parentid);
 		
 		String title= driver.getTitle();
-		System.out.println("The current driver focus is on this tab: "+title);
+		System.out.println("The current driver focus is on this tab: "+title);*/
 		
+		//using for loop
+		
+		for(String windowid:winid) {
+			String tit= driver.switchTo().window(windowid).getTitle();
+			System.out.println("the window id's are: "+windowid);
+			System.out.println("current driver focus is on this page: "+tit);
+		}
 
 	}
 
