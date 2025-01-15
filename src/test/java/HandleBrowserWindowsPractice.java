@@ -64,10 +64,11 @@ public class HandleBrowserWindowsPractice {
      
      for(String windowid:winid) {
     	String t1= driver.switchTo().window(windowid).getTitle();
-     if(t1.equals("Hopme page")) {
-    	 System.out.println(driver.getCurrentUrl());
+    	System.out.println("The window id's are: "+windowid);
+     if(t1.equals("Home page")) {
+    	 System.out.println("this is the fist id: ");
      }else {
-    	 System.out.println("This is the second browser window "+windowid);
+    	 System.out.println("This is the second browser window "+driver.getCurrentUrl());
      }
      
      }
