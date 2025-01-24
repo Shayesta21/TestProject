@@ -12,8 +12,8 @@ public class BootstrapDropDownPractice {
 	
 	/*1)select single option
 	 * 2)capture all options and find the size
-	 * 3)Printing options from drop down
-	 * 4)select multiple options
+	 * 3)Printing options from drop down using enhanced for loop
+	 * 4)select multiple options using enhanced for loop
 	 */
 
 	public static void main(String[] args) {

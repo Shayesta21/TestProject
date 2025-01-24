@@ -51,7 +51,7 @@ public class HandleBrowserWindowPractie2 {
 		String title= driver.getTitle();
 		System.out.println("The current driver focus is on this tab: "+title);*/
 		
-		//using for loop
+		//using enhanced for loop
 		
 		for(String windowid:winid) {
 			String tit= driver.switchTo().window(windowid).getTitle();

@@ -54,7 +54,7 @@ public class CheckBoxPractice {
 	
 	/*3)clicking only specific check boxes- clicking last 3 checkboxes
 	//Starting index =total no of check-boxes - how many check-boxes you want to select
-	//eg: 7-3=4 so for is the starting index
+	//eg: 7-3=4 so 4 is the starting index
 	//in this case we can only use normal for loop
 	
 	for(int i=4;i<checkboxes.size();i++)
