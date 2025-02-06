@@ -11,6 +11,20 @@ public class LaunchABrowser {
 		 * open url: https://www.amazn.ca
 		 * validate title
 		 * close browser
+		 * 
+		 * Selenium 4.x has introduced new commands to launch a new browser on separate Tab or separate browser window
+		 * 
+		 * for TAB
+		 * driver.switchTo.newWindow(WindowType.TAB);
+		 * 
+		 * 
+		 * for WINDOW
+		 * driver.switchTo().newWindow(WindowType.WINDOW);
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
 		 */
 		
 	//launch browser for chrome

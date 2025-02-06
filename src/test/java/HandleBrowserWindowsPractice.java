@@ -57,7 +57,18 @@ public class HandleBrowserWindowsPractice {
      
      //switch to parent id
      driver.switchTo().window(parentid);
-     System.out.println(driver.getTitle());*/
+     System.out.println(driver.getTitle());
+     
+     //Using in  a single line approach
+      
+      
+      List <String> windowlist = new ArrayList(driver.getwindowHandles());   
+      driver.switchTo.window(windowlist.get(1));
+     
+     
+     
+     
+    */
      
      
      //approach 2 using enhanced for loop
