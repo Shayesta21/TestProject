@@ -29,7 +29,7 @@ public class keyboardpractice {
         act.keyDown(Keys.CONTROL).sendKeys("C").keyUp(Keys.CONTROL).perform();
              
         //tab-
-        act.keyDown(Keys.TAB).keyUp(Keys.CONTROL).perform();;
+        act.keyDown(Keys.TAB).keyUp(Keys.TAB).perform();
         
         //ctrl+v
 		act.keyDown(Keys.CONTROL).sendKeys("V").keyUp(Keys.CONTROL).perform();

@@ -64,10 +64,7 @@ public class HandleBrowserWindowsPractice {
       
       List <String> windowlist = new ArrayList(driver.getwindowHandles());   
       driver.switchTo.window(windowlist.get(1));
-     
-     
-     
-     
+          
     */
      
      
