@@ -36,7 +36,7 @@ public class MultipleFileUpload {
 		if(driver.findElement(By.xpath("//ul[@id='fileList']//li[1]")).getText().equals("loops and while.txt") 
 		&& driver.findElement(By.xpath("//ul[@id='fileList']//li[2]")).getText().equals("gittoken.txt"))
 		{
-			System.out.println("the files name match");
+			System.out.println("the file names match");
 		}else {
 			System.out.println("the file names do not match");
 		}
