@@ -10,7 +10,7 @@ public class StaticTable {
 
 	public static void main(String[] args) {
 		/*1)Find total no of rows in a table
-		 * 
+		 * `
 		 * 2)Find total no of columns in a table	
 		 * 
 		 * 3)read data from specific row and column

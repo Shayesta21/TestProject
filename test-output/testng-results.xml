@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-13T16:46:43 EDT" name="mysuite" finished-at="2025-03-13T16:46:53 EDT" duration-ms="9867">
+    <groups>
+    </groups>
+    <test started-at="2025-03-13T16:46:43 EDT" name="TestNgtest" finished-at="2025-03-13T16:46:53 EDT" duration-ms="9867">
+      <class name="testng.P2Test">
+        <test-method signature="openapp()[pri:1, instance:testng.P2Test@33d512c1]" started-at="2025-03-13T16:46:43 EDT" name="openapp" finished-at="2025-03-13T16:46:46 EDT" duration-ms="2888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="logocheck()[pri:2, instance:testng.P2Test@33d512c1]" started-at="2025-03-13T16:46:46 EDT" name="logocheck" finished-at="2025-03-13T16:46:49 EDT" duration-ms="3093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logocheck -->
+        <test-method signature="login()[pri:3, instance:testng.P2Test@33d512c1]" started-at="2025-03-13T16:46:49 EDT" name="login" finished-at="2025-03-13T16:46:53 EDT" duration-ms="3523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="close()[pri:4, instance:testng.P2Test@33d512c1]" started-at="2025-03-13T16:46:53 EDT" name="close" finished-at="2025-03-13T16:46:53 EDT" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testng.P2Test -->
+      <class name="testng.PT1">
+        <test-method signature="logout()[pri:1, instance:testng.PT1@2d3379b4]" started-at="2025-03-13T16:46:53 EDT" name="logout" finished-at="2025-03-13T16:46:53 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="login()[pri:2, instance:testng.PT1@2d3379b4]" started-at="2025-03-13T16:46:53 EDT" name="login" finished-at="2025-03-13T16:46:53 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="openapp()[pri:3, instance:testng.PT1@2d3379b4]" started-at="2025-03-13T16:46:53 EDT" name="openapp" finished-at="2025-03-13T16:46:53 EDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+      </class> <!-- testng.PT1 -->
+    </test> <!-- TestNgtest -->
+  </suite> <!-- mysuite -->
+</testng-results>

@@ -1,12 +1,17 @@
-import org.openqa.selenium.JavascriptExecutor;
-
+import java.awt.Point;
 import java.time.Duration;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+
+import java.time.Duration;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.util.List;
 public class CheckBoxPractice {
 
@@ -24,7 +29,7 @@ public class CheckBoxPractice {
 		driver.get("https://testautomationpractice.blogspot.com/");
 		driver.manage().window().maximize();
 		WebElement button =driver.findElement(By.cssSelector("input#sunday"));
-		Point p= button.getLocation();
+		org.openqa.selenium.Point p= button.getLocation();
 		int x=p.getX();
 		int y=p.getY();
 		System.out.println(x);
