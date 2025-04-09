@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.AssertionsPractice">
+      <class name="testng.ParallelTesting">
         <methods>
-          <include name="testTitle"/>
+          <include name="setupTest"/>
+          <include name="teardown"/>
+          <include name="logoTest"/>
         </methods>
-      </class> <!-- testng.AssertionsPractice -->
+      </class> <!-- testng.ParallelTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
