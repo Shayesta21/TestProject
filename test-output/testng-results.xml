@@ -1,102 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-08T22:36:13 EDT" name="Suite" finished-at="2025-04-08T22:36:32 EDT" duration-ms="19056">
+  <suite started-at="2025-04-14T11:36:55 EDT" name="listner suite" finished-at="2025-04-14T11:37:05 EDT" duration-ms="10761">
     <groups>
     </groups>
-    <test started-at="2025-04-08T22:36:13 EDT" name="chromeTest" finished-at="2025-04-08T22:36:26 EDT" duration-ms="12967">
-      <class name="testng.ParallelTesting">
-        <test-method is-config="true" signature="setupTest(java.lang.String)[pri:0, instance:testng.ParallelTesting@185a6e9]" started-at="2025-04-08T22:36:13 EDT" name="setupTest" finished-at="2025-04-08T22:36:18 EDT" duration-ms="4948" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-04-14T11:36:55 EDT" name="listner test" finished-at="2025-04-14T11:37:05 EDT" duration-ms="10761">
+      <class name="testnglisteners.ListenersTestCase1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testnglisteners.ListenersTestCase1@4116aac9]" started-at="2025-04-14T11:36:55 EDT" name="setUp" finished-at="2025-04-14T11:37:00 EDT" duration-ms="4811" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="logoTest()[pri:0, instance:testng.ParallelTesting@185a6e9]" started-at="2025-04-08T22:36:18 EDT" name="logoTest" finished-at="2025-04-08T22:36:26 EDT" duration-ms="7376" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="logoTest()[pri:1, instance:testnglisteners.ListenersTestCase1@4116aac9]" started-at="2025-04-14T11:37:00 EDT" name="logoTest" finished-at="2025-04-14T11:37:05 EDT" duration-ms="5120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoTest -->
-        <test-method signature="titleTest()[pri:0, instance:testng.ParallelTesting@185a6e9]" started-at="2025-04-08T22:36:26 EDT" name="titleTest" finished-at="2025-04-08T22:36:26 EDT" duration-ms="38" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- titleTest -->
-        <test-method signature="urlTest()[pri:0, instance:testng.ParallelTesting@185a6e9]" started-at="2025-04-08T22:36:26 EDT" name="urlTest" finished-at="2025-04-08T22:36:26 EDT" duration-ms="57" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- urlTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testng.ParallelTesting@185a6e9]" started-at="2025-04-08T22:36:26 EDT" name="teardown" finished-at="2025-04-08T22:36:26 EDT" duration-ms="272" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testng.ParallelTesting -->
-    </test> <!-- chromeTest -->
-    <test started-at="2025-04-08T22:36:13 EDT" name="edgeTest" finished-at="2025-04-08T22:36:28 EDT" duration-ms="14253">
-      <class name="testng.ParallelTesting">
-        <test-method is-config="true" signature="setupTest(java.lang.String)[pri:0, instance:testng.ParallelTesting@63475ace]" started-at="2025-04-08T22:36:13 EDT" name="setupTest" finished-at="2025-04-08T22:36:20 EDT" duration-ms="6912" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="logoTest()[pri:0, instance:testng.ParallelTesting@63475ace]" started-at="2025-04-08T22:36:20 EDT" name="logoTest" finished-at="2025-04-08T22:36:27 EDT" duration-ms="7058" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoTest -->
-        <test-method signature="titleTest()[pri:0, instance:testng.ParallelTesting@63475ace]" started-at="2025-04-08T22:36:27 EDT" name="titleTest" finished-at="2025-04-08T22:36:27 EDT" duration-ms="19" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- titleTest -->
-        <test-method signature="urlTest()[pri:0, instance:testng.ParallelTesting@63475ace]" started-at="2025-04-08T22:36:27 EDT" name="urlTest" finished-at="2025-04-08T22:36:27 EDT" duration-ms="16" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- urlTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testng.ParallelTesting@63475ace]" started-at="2025-04-08T22:36:27 EDT" name="teardown" finished-at="2025-04-08T22:36:28 EDT" duration-ms="223" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testng.ParallelTesting -->
-    </test> <!-- edgeTest -->
-    <test started-at="2025-04-08T22:36:13 EDT" name="firefoxTest" finished-at="2025-04-08T22:36:32 EDT" duration-ms="19055">
-      <class name="testng.ParallelTesting">
-        <test-method is-config="true" signature="setupTest(java.lang.String)[pri:0, instance:testng.ParallelTesting@c0c2f8d]" started-at="2025-04-08T22:36:13 EDT" name="setupTest" finished-at="2025-04-08T22:36:24 EDT" duration-ms="10720" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="logoTest()[pri:0, instance:testng.ParallelTesting@c0c2f8d]" started-at="2025-04-08T22:36:24 EDT" name="logoTest" finished-at="2025-04-08T22:36:31 EDT" duration-ms="7088" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoTest -->
-        <test-method signature="titleTest()[pri:0, instance:testng.ParallelTesting@c0c2f8d]" started-at="2025-04-08T22:36:31 EDT" name="titleTest" finished-at="2025-04-08T22:36:31 EDT" duration-ms="21" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- titleTest -->
-        <test-method signature="urlTest()[pri:0, instance:testng.ParallelTesting@c0c2f8d]" started-at="2025-04-08T22:36:31 EDT" name="urlTest" finished-at="2025-04-08T22:36:31 EDT" duration-ms="7" status="PASS">
+        <test-method signature="urlTest()[pri:2, instance:testnglisteners.ListenersTestCase1@4116aac9]" started-at="2025-04-14T11:37:05 EDT" name="urlTest" finished-at="2025-04-14T11:37:05 EDT" duration-ms="34" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://opensource-demo.orangehrmlive.com] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://opensource-demo.orangehrmlive.com] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testnglisteners.ListenersTestCase1.urlTest(ListenersTestCase1.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testng.ParallelTesting@c0c2f8d]" started-at="2025-04-08T22:36:31 EDT" name="teardown" finished-at="2025-04-08T22:36:32 EDT" duration-ms="1189" status="PASS">
+        <test-method signature="titleTest()[pri:3, instance:testnglisteners.ListenersTestCase1@4116aac9]" started-at="2025-04-14T11:37:05 EDT" name="titleTest" finished-at="2025-04-14T11:37:05 EDT" depends-on-methods="testnglisteners.ListenersTestCase1.urlTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method testnglisteners.ListenersTestCase1.titleTest() on instance testnglisteners.ListenersTestCase1@4116aac9 depends on not successfully finished methods 
+[testnglisteners.ListenersTestCase1.urlTest() on instance testnglisteners.ListenersTestCase1@4116aac9]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method testnglisteners.ListenersTestCase1.titleTest() on instance testnglisteners.ListenersTestCase1@4116aac9 depends on not successfully finished methods 
+[testnglisteners.ListenersTestCase1.urlTest() on instance testnglisteners.ListenersTestCase1@4116aac9]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testng.ParallelTesting -->
-    </test> <!-- firefoxTest -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- titleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testnglisteners.ListenersTestCase1@4116aac9]" started-at="2025-04-14T11:37:05 EDT" name="tearDown" finished-at="2025-04-14T11:37:05 EDT" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testnglisteners.ListenersTestCase1 -->
+    </test> <!-- listner test -->
+  </suite> <!-- listner suite -->
 </testng-results>
